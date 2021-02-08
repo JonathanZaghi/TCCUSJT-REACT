@@ -1,0 +1,43 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.cardInvestimento {
+  height: 500px;
+}
+.noIntro {
+  background-color: lightseagreen;
+}
+
+
+.intro {
+  background-color: white;
+}
+
+.top5div {
+  margin-top: 80px;
+  margin-right: 40px;
+}
+
+.coroa {
+  margin-top: 10px;
+}
+
+.iconTop5 {
+  height: 150px;
+  width: 150px; 
+}
+
+.headerTop5 {
+  text-align: center;
+}

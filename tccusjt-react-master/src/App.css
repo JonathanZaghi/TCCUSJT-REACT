@@ -1,0 +1,379 @@
+.App {
+  text-align: center;
+  
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.lista-top5{
+  background-color: white;
+  margin-top: 1%;
+  padding-bottom: 20px;
+  
+}
+
+.cardCadastroInv1{
+  margin-left: 18%;
+}
+
+.cardCadastroInv2{
+  margin-left: 18%;
+}
+
+.botao-direita{
+  margin-left: auto;
+}
+
+.cardSugestao{
+  opacity: 0.95;
+  top: 2%;
+  left: 12%;
+  width: 70%;
+}
+
+.text-top5{
+text-align: center;
+}
+
+.text-over{
+  text-overflow:    ellipsis;
+}
+.background{
+  background-image: url('./images/back.jpg');
+}
+
+a:link{
+  text-decoration:none;
+  color:white;
+  }
+  
+  a:visited{
+  text-decoration:none;
+  color:white;
+  }
+  
+  a:hover{
+  text-decoration:none;
+  color: #7a1fa0;
+  }
+  
+  a:active{
+  text-decoration:none;
+  }
+
+.text{
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.text-cadastro{
+  text-align: center !important;
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  height: 7px;
+
+}
+
+.logo-meio{
+  margin-left: 16%;
+  margin-top: 12%;
+}
+
+
+.text-barra{
+  font-size: 15px;
+  color: white;
+  font-weight: bold;
+  margin-right: 60px;
+  text-align: right !important;
+  border-bottom: 4px solid;
+  border-color: #7a1fa0;
+  width: 50px;
+  height: 7px;
+}
+
+.text-links{
+  font-size: 10px;
+  font-weight: bold;
+  margin-top: 50px;
+}
+
+.text-rigth{
+  font-size: 10px;
+  font-weight: bold;
+  margin-left: 227px;
+  margin-top: 100px;
+}
+
+.botao{
+    color: blanchedalmond;
+    padding: 10px 20px;
+    border-radius: 25px;
+    background-color: #7a1fa0;
+    font-size: 15px;
+}
+
+.botao-centro{
+  text-align: center;
+}
+
+.nome-empresa{
+  margin-left: 20%;
+  color: white;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.bor-col{
+  border-color: #61dafb;
+  border-bottom: 10px;
+}
+.App-link {
+  color: #61dafb;
+}
+
+.body-login{
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 10%;
+  padding-bottom: 13%;
+}
+
+.welcome {
+  text-align: center;
+  color: #24ae4e;
+}
+
+.body-cadastro{
+  background-repeat: no-repeat;
+  background-position: center;
+  padding-top: 10%;
+  padding-bottom: 14.75%;
+}
+
+.body-homePerfil{
+  height: 1000px;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+html,
+body {
+  margin: 0;
+  background-image: url('./images/1.jpg');
+}
+
+#App {
+  font-family: sans-serif;
+
+  /* Give app full page to work with */
+  height: 100vh;
+}
+
+#page-wrap {
+  text-align: center;
+
+  /* Prevent sidebar from showing a scrollbar on page */
+  overflow: auto;
+}
+
+/* Individual item */
+.bm-item {
+  display: inline-block;
+
+  /* Our sidebar item styling */
+  text-decoration: none;
+  margin-bottom: 10px;
+  color: #d1d1d1;
+  transition: color 0.2s;
+}
+
+/* Change color on hover */
+.bm-item:hover {
+  color: white;
+}
+
+/* The rest copied directly from react-burger-menu docs */
+
+/* Position and sizing of burger button */
+.bm-burger-button {
+  position: fixed;
+  width: 36px;
+  height: 30px;
+  left: 36px;
+  top: 36px;
+}
+
+/* Color/shape of burger icon bars */
+.bm-burger-bars {
+  background: #373a47;
+}
+
+/* Position and sizing of clickable cross button */
+.bm-cross-button {
+  height: 24px;
+  width: 24px;
+}
+
+.displayed {
+  display: block;
+  margin-left: auto;
+  margin-right: auto 
+}
+
+.text-menu-bar{
+  font-size: 12 px;
+}
+
+/* Color/shape of close button cross */
+.bm-cross {
+  background: #bdc3c7;
+}
+
+.iconUser {
+  height: 100%;
+  width: 70%; 
+}
+p.blocktext {
+  margin-left: auto;
+  margin-right: auto;
+}
+
+.grafico {
+  width: 105%;
+}
+
+.grafico3 {
+  width: 105%;
+  height: 100%;
+}
+
+.searchPosition {
+  padding-top: 5px;
+  left: 85%;
+  position: absolute;
+}
+
+.topMargin {
+  margin-left: 16%;
+}
+
+.grafico2 {
+  width: 77%;
+}
+
+.graficos{
+  padding-left: 17%;
+  text-align: center;
+}
+
+.graficos2 {
+  padding-left: 5%;
+}
+
+
+.top5 {
+  width: 77%;
+}
+
+.lista-top5{
+    border: 1px solid;
+    border-color:lightgray;
+    padding-bottom: 20px;
+    
+}
+
+.text-boas{
+  color: white;
+  font-weight: bold
+}
+
+.text-top5{
+  text-align: center;
+  color: #212529;
+  font-weight: bold;
+}
+/* General sidebar styles */
+.bm-menu {
+  background: #373a47;
+  padding: 2.5em 1.5em 0;
+  font-size: 1.15em;
+}
+
+/* Morph shape necessary with bubble or elastic */
+.bm-morph-shape {
+  fill: #373a47;
+}
+
+/* Wrapper for item list */
+.bm-item-list {
+  color: #b8b7ad;
+}
+
+/* Styling of overlay */
+.bm-overlay {
+  background: rgba(0, 0, 0, 0.3);
+}
+
+.labelgraph{
+  text-align: center;
+}
+
+.perguntatxt{
+  font-size: 20px;
+  text-align: left !important;
+  font-weight: bold;
+}
+
+.respostatxt{
+  font-size: 16px;
+  text-align: left !important;
+}
+
+.imgperfil{
+  border-radius: 50%;
+  width: 250px !important;
+  height: 250px !important;
+  border: solid black ;
+}
+
+.configperfil{
+  font-size: 20px;
+  color: black;
+  margin-top: 20px;
+  font-weight: bold;
+}
+
+.botaodados{
+  width: 200px;
+  font-size: larger;
+}
